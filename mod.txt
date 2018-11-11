@@ -1,0 +1,14 @@
+{
+	"name" : "FuckCheats",
+	"description" : "Kickt/Bannt Cheater automatisch aus der eigenen Lobby.",
+	"author" : "Sneaky",
+	"image" : "image.png",
+	"contact" : "Discord: https://discord.gg/kV2M7kt | Steam: https://steamcommunity.com/id/ovs_sneaky/",
+	"version" : "1",
+	"blt_version" : 2,
+	"priority" : 1,
+	"hooks" : [
+		{"hook_id":"lib/network/base/networkpeer","script_path":"mod.lua"},
+		{"hook_id":"lib/network/matchmaking/networkmatchmakingsteam","script_path": "mod.lua"}
+	]
+}
